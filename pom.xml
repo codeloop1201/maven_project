@@ -17,7 +17,18 @@
     	<scope>test</scope>
 	</dependency>
 </dependencies>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ec6c6e9ad5b5-releases</name>
+        <url>http://127.0.0.1:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ec6c6e9ad5b5-snapshots</name>
+        <url>http://127.0.0.1:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
   
   
 </project>
