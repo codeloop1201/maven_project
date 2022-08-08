@@ -42,7 +42,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>ram_maven.ram</mainClass>
+              <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -50,7 +50,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.0.0-M3</version>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <id>enforce-maven</id>
@@ -71,7 +71,7 @@
     </build>
 
 
-<distributionManagement>
+<!-- <distributionManagement>
     <repository>
         <id>central</id>
         <name>ec6c6e9ad5b5-releases</name>
@@ -82,7 +82,7 @@
         <name>ec6c6e9ad5b5-snapshots</name>
         <url>http://127.0.0.1:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 
 
   
